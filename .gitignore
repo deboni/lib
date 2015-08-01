@@ -1,32 +1,78 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# To validate, run:
+#   'git ls-files -i --exclude-standard'
 
-# Precompiled Headers
-*.gch
-*.pch
+# build generated files
+/include/hbverbld.h
+/include/_repover.txt
+bin/*/
+lib/*/
+obj
+.hbmk/
+*.hbl
+*.hbd
+*.hbr
+*.hrb
 
-# Libraries
+# 'install'-ed binaries
+*.exe
+*.dll
+*.dxe
+*.dylib
+*.so
+*.sl
 *.lib
 *.a
-*.la
-*.lo
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+#incluido deboni
+*.ppo
+*.zip
+*.7z
+*.dbf
+*.fpt
+*.cdx
+*.idx
+*.ntx
+*.mem
+*.ped
+*.xml
+*.txt
+*.err
+*.xml
+*.dif
+*.pk
+*.tmp
+*.log
+*.txt
+*.pdf
+*.bkp
+*.tt*
+dados/
+atv*.*
+*.htm
+*.html
+*.on
+*.off
+*.rtf
+*.sql
+*.dat
+*.var
+*.o
+*.c
+*.~
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# packages
+/pkg/
 
-# Debug files
-*.dSYM/
+# not hosted contribs
+/addons/
+
+# misc junk
+.DS_Store
+*.bak
+
+# exceptions
+!libunicows.a
+!unicows.lib
+!lib/3rd
+!config/*.exe
+!/*.exe
